@@ -480,7 +480,7 @@ h6,
 }
 
 .bg-header {
-    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../images/prod1.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, 0.093), rgba(9, 30, 62, 0.093)), url(../images/1.jpg) center center no-repeat;
     background-size: cover;
 }
 
