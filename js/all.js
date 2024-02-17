@@ -48,7 +48,7 @@ $(".container-footer").html(
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 p-4">
                         <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-white"><img src="images/logo-main.png" style="width: 70%;"/></h1>
+                            <h1 class="m-0 text-white"><img src="images/logo-main.png"/></h1>
                         </a>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ $(".container-footer").html(
                                 <a class="text-light mb-2" href="press.html"><i class="bi bi-arrow-right text-primary me-2"></i>Effluent Treatment Plant</a>
                                 <a class="text-light mb-2" href="achievements.html"><i class="bi bi-arrow-right text-primary me-2"></i>Sewage Treatment Plant</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Iron Removal Plant</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>reverse osmosis plant</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Reverse osmosis plant</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>WTP</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Softener</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Composter</a>
