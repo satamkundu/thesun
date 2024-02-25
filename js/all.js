@@ -4,8 +4,8 @@ $(".container-topbar").html(
         <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
                 <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>17, Hatem Munshi Lane, Kolkata – 700035</small>
-                <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>7003583839 | 8777675893</small>
-                <small class="text-light"><i class="fa fa-envelope-open me-2"></i>thesun022021@gmail.com</small>
+                <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>7003583839 | 8777675893 | 9836550848</small>
+                <a href="mailto:thesun022021@gmail.com"><small class="text-light"><i class="fa fa-envelope-open me-2"></i>thesun022021@gmail.com</small></a>
             </div>
         </div>
         <div class="col-lg-4 text-center text-lg-end">
@@ -64,11 +64,11 @@ $(".container-footer").html(
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">thesun022021@gmail.com</p>
+                                <a href="mailto:thesun022021@gmail.com"><p class="mb-0">thesun022021@gmail.com</p></a>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">7003583839 | 8777675893</p>
+                                <p class="mb-0">7003583839 | 8777675893 | 9836550848</p>
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
@@ -94,8 +94,8 @@ $(".container-footer").html(
                                 <h3 class="text-light mb-0">Products</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="press.html"><i class="bi bi-arrow-right text-primary me-2"></i>Effluent Treatment Plant</a>
-                                <a class="text-light mb-2" href="achievements.html"><i class="bi bi-arrow-right text-primary me-2"></i>Sewage Treatment Plant</a>
+                                <a class="text-light" href="press.html"><i class="bi bi-arrow-right text-primary me-2"></i>Effluent Treatment Plant</a>
+                                <a class="text-light" href="achievements.html"><i class="bi bi-arrow-right text-primary me-2"></i>Sewage Treatment Plant</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Iron Removal Plant</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Reverse osmosis plant</a>
                                 <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>WTP</a>

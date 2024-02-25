@@ -232,7 +232,7 @@ h6,
     z-index: 1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px) { 
     .carousel-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
@@ -241,6 +241,13 @@ h6,
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
+    }
+    nav > a > h1 > img{
+        width: 62% !important;
+    }
+
+    .carousalImg {
+        width: 54% !important;
     }
 }
 
