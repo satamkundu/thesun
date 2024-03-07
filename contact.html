@@ -126,19 +126,19 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form id="form">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" required name="name" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" required name="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                                <input type="text" required name="subject" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <textarea name="message" required class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">Rate Us: </div>
                             <div class="col-12">
@@ -193,6 +193,30 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/all.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#form").on('submit', (function(e) {
+          e.preventDefault();
+          $.ajax({
+            url: "mail.php",
+            type: "POST",
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData: false,
+            success: function(response) {
+            //   console.log(response);
+              alert("Thank you for your request, we will contact you shortly....")
+              $("#form").trigger("reset"); // to reset form input fields
+            },
+            error: function(e) {
+              console.log(e);
+            }
+          });
+        }));
+      });
+    </script>
 </body>
 
 </html>
